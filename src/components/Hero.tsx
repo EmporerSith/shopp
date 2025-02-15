@@ -5,7 +5,8 @@ import Slider from "react-slick";
 import Slide from "./Slide";
 
 const Hero = () => {
-  var settings = {
+  // Change var to const as settings is not reassigned
+  const settings = {
     dots: true,
     infinite: true,
     slidesToShow: 1,

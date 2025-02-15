@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 
 import { FaSearch } from "react-icons/fa";
-import { BiSolidUser, BiUser } from "react-icons/bi";
 import { FiHeart } from "react-icons/fi";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 

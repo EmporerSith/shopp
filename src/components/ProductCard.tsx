@@ -5,11 +5,10 @@ interface propsType {
   img: string;
   title: string;
   desc: string;
-  rating: number;
   price: string;
 }
 
-const ProductCard: React.FC<propsType> = ({ img, title, desc, rating, price }) => {
+const ProductCard: React.FC<propsType> = ({ img, title, desc, price }) => {
   return (
     <div className="px-3 pt-3 border border-gray-200 bg-gray-50 rounded-xl max-w-[400px]">
       <div>
