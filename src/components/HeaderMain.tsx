@@ -4,6 +4,7 @@ import Image from "next/image";
 import { FaSearch } from "react-icons/fa";
 import { FiHeart } from "react-icons/fi";
 import { HiOutlineShoppingBag } from "react-icons/hi";
+import { BiUser } from "react-icons/bi";
 
 const HeaderMain = () => {
   return (
